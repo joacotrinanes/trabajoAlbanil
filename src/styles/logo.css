@@ -1,0 +1,15 @@
+.subtitulo_logo {
+    float: inline-end;
+    color: #eef0ec;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.letra_logo {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.marca_logo {
+    display: flex;
+    justify-content: space-between;
+}
