@@ -1,10 +1,13 @@
 import React from "react";
-import MetallicDiv from "./MetallicDiv";
+import DarkCarousel from "./Carrousel";
+import '../../styles/mainContent.css';
 
 const MainContent = () => {
 
     return (
-        <MetallicDiv/>
+        <div className="background_img_metallic">         
+            <DarkCarousel/>                              
+        </div>
 )
 
 }

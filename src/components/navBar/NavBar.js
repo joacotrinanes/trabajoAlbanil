@@ -7,7 +7,7 @@ import Logo from '../logo/logo';
 
 function NavBar() {
   return (
-    <Navbar className="nav_bar" bg="light" expand="xlg" fixed="top">
+    <Navbar className="nav_bar" bg="light" expand="xlg">
       <Container>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
