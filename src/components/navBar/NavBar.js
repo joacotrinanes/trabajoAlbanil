@@ -3,11 +3,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../../styles/navBar.css';
-import Logo from '../logo/logo';
+import Logo from '../logo/Logo';
 
 function NavBar() {
   return (
-    <Navbar className="nav_bar" bg="light" expand="xlg">
+    <Navbar className="nav_bar" bg="light" expand="lg">
       <Container>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

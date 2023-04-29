@@ -1,7 +1,11 @@
 .background_img_metallic {
     background-image: url('../img/metal-texture-3-1199822.jpg');
+    background-size: cover;
+    padding: 2%;
 }
 
-.metallic_div {
-    height: 15vh;
+.carousel_container {
+    border-radius: 20px;
+    background-color: #FFB037;
+    height: min-content;
 }
