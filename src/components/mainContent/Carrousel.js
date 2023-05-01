@@ -1,8 +1,7 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import img_construction from '../../img/img_construccion.jpg';
+import img_construction from '../../img/img_construccion_350_px.jpg';
 import '../../styles/carousel.css';
-import BasicExample from "../UI/Card";
 
 function DarkCarousel() {
   return (
@@ -20,7 +19,7 @@ function DarkCarousel() {
       </Carousel.Item>
       <Carousel.Item className="carousel_item">
         <img
-          className="d-block w-100 carousel_img"
+          className="carousel_img"
           src={img_construction}
           alt="Second slide"
         />
@@ -32,7 +31,7 @@ function DarkCarousel() {
       </Carousel.Item>
       <Carousel.Item className="carousel_item">
         <img
-          className="d-block w-100 carousel_img"
+          className="carousel_img"
           src={img_construction}
           alt="Third slide"
         />

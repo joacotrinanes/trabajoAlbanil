@@ -71,3 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
+### Consideraciones
+
+Altura máxima de imagen para que no quede cortada: 350 px - referencia en clase carousel_item (../styles/carousel.css)
